@@ -70,3 +70,6 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+gem 'devise-bootstrap-form', '<= 0.2.0'
+gem "bootstrap_form"
+gem 'iex-ruby-client'
