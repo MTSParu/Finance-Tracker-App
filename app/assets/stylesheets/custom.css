@@ -16,4 +16,9 @@
 
 .results-block {
     display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.logout-button {
+    margin-right: 5px;
 }
