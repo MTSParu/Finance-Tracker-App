@@ -15,9 +15,7 @@
     </div>
   <% end %>
 </div>
-<div id="friend-results">
 
-</div>
-<%= turbo_frame_tag "friends" do %>
-  <%= render 'friends/list' %>
-<% end %>
+<%= render 'friend_result', friends: nil %>
+
+<%= render 'friends/list' %>
